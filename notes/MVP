@@ -1,12 +1,14 @@
-Import BeerXML data from local file.
-Save data to database - data only necessary for statistics.
-Get data from db and present it in form of statistics (REST):
+0. Flattened domain model - one class with all parameters.
+1. Import BeerXML data from local file - parse it to java objects.
+2. Save data to database - data only necessary for statistics.
+3. Get data from db and present it in form of statistics (REST):
     - average gravity;
     - average alcohol;
     - percentage and amount of light/amber/dark beers;
     - beers/year;
     - favorite style (general styles);
     - amount brewed.
-
-
-Import BeerXML data from uploaded file.
+4. Angular front.
+5. Import BeerXML data from uploaded file.
+6. Validation
+7. Tests
