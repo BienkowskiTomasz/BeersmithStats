@@ -1,0 +1,12 @@
+Import BeerXML data from local file.
+Save data to database - data only necessary for statistics.
+Get data from db and present it in form of statistics (REST):
+    - average gravity;
+    - average alcohol;
+    - percentage and amount of light/amber/dark beers;
+    - beers/year;
+    - favorite style (general styles);
+    - amount brewed.
+
+
+Import BeerXML data from uploaded file.
